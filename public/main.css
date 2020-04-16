@@ -99,6 +99,12 @@ p {
     flex-direction: column;
 }
 
+.step-arrow {
+    align-self: center;
+    height: 5rem;
+    width: 5rem;
+}
+
 /* Tablet */
 @media only screen and (min-width: 768px) {
     #team-container  {
