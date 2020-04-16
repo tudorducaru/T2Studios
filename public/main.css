@@ -1,0 +1,140 @@
+#welcome-container {
+    margin: 0px;
+    background-color: #2D3640;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.custom-ctn {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-size: 20px;
+}
+
+#welcome-container h1 {
+    color: #f0f0f0;
+    font-size: 4rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+#welcome-1 {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+#welcome-arrow {
+    height: 3rem;
+}
+
+#welcome-2 {
+    font-size: 2rem;
+}
+
+#team-container {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team-container img {
+    margin-top: 10px;
+    height: 15rem;
+    width: 15rem;
+}
+
+#team-container p {
+    color: black;
+}
+
+#main-pitch {
+    background-color: #F0514B; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-pitch p {
+    margin-top: 1rem;
+    color: white;
+}
+
+#main-pitch h1 {
+    color: white;
+}
+
+#main-pitch div div {
+    background-color: #2D3640;
+    width: 100%;
+    height: 4px;
+}
+
+#process {
+    flex-direction: column;
+}
+
+#process h1 {
+    width: 100%;
+    text-align: end;
+}
+
+.step-img {
+    height: 10rem;
+    width: 10rem;
+    align-self: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.process-step {
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    #team-container  {
+        width: 80%;
+    }
+
+    #main-pitch p {
+        width: 80%;
+    }
+
+    #process {
+        width: 80%;
+    }
+}
+
+/* Laptop */
+@media only screen and (min-width: 1200px) {
+    #team-container {
+        flex-direction: row;
+        width: 60%;
+        padding: 6rem 0;
+    }
+    
+    #team-container div {
+        margin-right: 3rem;
+    }
+
+    #main-pitch {
+        padding: 4rem 0;
+    }
+
+    #main-pitch p {
+        width: 40%;
+    }
+
+    #process {
+        width: 60%;
+        padding: 4rem 0;
+    }
+
+    #process h1 {
+        text-align: end;
+    }
+}
