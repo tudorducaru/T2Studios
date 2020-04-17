@@ -87,27 +87,25 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.process-step {
+    flex-direction: column;
+}
+
 .process-step div {
     display: flex;
     flex-direction: column;
+    align-items: start;
 }
 
 .step-img {
     width: 15rem;
-    align-self: center;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.process-step {
-    margin-top: 1rem;
-    flex-direction: column;
+    margin: 1rem 0;
 }
 
 .step-arrow {
-    align-self: center;
-    height: 5rem;
     width: 5rem;
+    align-self: center;
+    margin: 1rem 0;
 }
 
 #pricing-card {
@@ -166,6 +164,14 @@ h1 {
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
+    #welcome-container img {
+        width: 25%;
+    }
+
+    a {
+        font-size: 24px;
+    }
+    
     #team-container  {
         padding-top: 4rem;
         padding-left: 10%;
@@ -180,20 +186,6 @@ h1 {
         width: 80%;
     }
 
-    .process-step div {
-        margin-top: 1rem;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .process-step div p {
-        margin-left: 3rem;
-    }
-
-    .step-arrow {
-        align-self: start;
-        margin: 1rem 5rem;
-    }
 }
 
 /* Laptop */
@@ -218,14 +210,6 @@ h1 {
     #process {
         width: 50%;
         padding: 4rem 0;
-    }
-
-    #process h1 {
-        text-align: end;
-    }
-
-    .process-step div p {
-        margin-left: 15rem;
     }
 }
 
