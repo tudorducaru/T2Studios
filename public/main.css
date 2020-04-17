@@ -13,13 +13,16 @@
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
 }
 
 #welcome-container h1 {
     color: #f0f0f0;
     font-size: 4rem;
-    font-family: 'Dosis', sans-serif;
 }
 
 #welcome-1 {
@@ -29,6 +32,7 @@ p {
 
 #welcome-arrow {
     height: 3rem;
+    color: red;
 }
 
 #welcome-2 {
@@ -54,15 +58,6 @@ p {
     color: black;
 }
 
-#about-us{
-	overflow: auto; 
-    height: 55rem; 
-    width: 100%;
-	background-image: url(mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #main-pitch {
     background-color: #2D3640; 
     flex-direction: column;
@@ -77,7 +72,6 @@ p {
 #main-pitch h1 {
     color: #f0f0f0;
     font-size: 4rem;
-    font-family: 'Dosis', sans-serif;
 }
 
 #process {
@@ -177,5 +171,22 @@ p {
 
     .process-step div p {
         margin-left: 15rem;
+    }
+}
+
+/* Extra large */
+@media only screen and (min-width: 1700px) {
+    #welcome-container {
+        padding-bottom: 0px;
+    }
+
+    #welcome-2 {
+        margin-bottom: 0;
+    }
+
+    #team-container {
+        padding-top: 8%;
+        padding-left: 30%;
+        padding-right: 30%;
     }
 }
