@@ -207,6 +207,12 @@ h1 {
         margin-left: 6rem;
     }
 
+    #pricing-card {
+        width: 70%;
+        margin-bottom: 2rem;
+        box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.27)
+    }
+
 }
 
 /* Laptop */
@@ -239,6 +245,12 @@ h1 {
 
     .process-step p {
         margin-left: 6rem;
+    }
+
+    #pricing-card {
+        width: 40%;
+        margin-bottom: 2rem;
+        box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.27)
     }
 }
 
