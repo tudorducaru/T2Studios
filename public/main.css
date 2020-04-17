@@ -54,8 +54,17 @@ p {
     color: black;
 }
 
+#about-us{
+	overflow: auto; 
+    height: 55rem; 
+    width: 100%;
+	background-image: url(mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #main-pitch {
-    background-color: #F0514B; 
+    background-color: #2D3640; 
     flex-direction: column;
     align-items: center;
 }
@@ -66,7 +75,9 @@ p {
 }
 
 #main-pitch h1 {
-    color: #2D3640;
+    color: #f0f0f0;
+    font-size: 4rem;
+    font-family: 'Dosis', sans-serif;
 }
 
 #process {
@@ -91,8 +102,8 @@ p {
 }
 
 .step-img {
-    height: 10rem;
-    width: 10rem;
+    height: 15rem;
+    width: 20rem;
     align-self: center;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
