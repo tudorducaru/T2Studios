@@ -113,6 +113,44 @@ h1 {
     width: 5rem;
 }
 
+#tech-container {
+    background-color: #F0514B;
+    flex-direction: column;
+    padding: 0;
+}
+
+/* Carousel */
+.slider-wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider {
+    align-self: center;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+}
+
+.slide {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    animation: slideshow 20s linear infinite;
+}
+
+.slide img {
+    height: 30px;
+    padding: 0 30px;
+}
+/* End of carousel */
+
+@keyframes slideshow {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-100%);}
+}
+
 /* Tablet */
 @media only screen and (min-width: 768px) {
     #team-container  {
