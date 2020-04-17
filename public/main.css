@@ -168,7 +168,7 @@ h1 {
         width: 25%;
     }
 
-    a {
+    a, a:visited, a:hover {
         font-size: 24px;
     }
     
@@ -194,7 +194,14 @@ h1 {
 
     .process-step div {
         align-items: center;
-        width: 15rem;
+    }
+
+    .process-step h3 {
+        font-size: 1rem;
+    }
+
+    .process-step div img {
+        width: 20rem;
     }
 
     .process-step p {
@@ -252,6 +259,14 @@ h1 {
         margin-left: 6rem;
     }
 
+    .process-step div img {
+        width: 32rem;
+    }
+
+    .process-step h3 {
+        font-size: 1.75rem;
+    }
+
     #pricing-card {
         width: 40%;
         margin-bottom: 2rem;
@@ -278,5 +293,13 @@ h1 {
         padding-top: 8%;
         padding-left: 30%;
         padding-right: 30%;
+    }
+
+    .process-step h3 {
+        font-size: 2rem;
+    }
+
+    .step-arrow {
+        width: 5rem;
     }
 }
