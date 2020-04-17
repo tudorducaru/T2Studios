@@ -96,8 +96,8 @@ h1 {
 }
 
 .step-img {
-    height: 15rem;
-    width: 20rem;
+    height: 12rem;
+    width: 12rem;
     align-self: center;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
@@ -139,6 +139,11 @@ h1 {
     .process-step div p {
         margin-left: 3rem;
     }
+
+    .step-arrow {
+        align-self: start;
+        margin: 1rem 5rem;
+    }
 }
 
 /* Laptop */
@@ -161,7 +166,7 @@ h1 {
     }
 
     #process {
-        width: 60%;
+        width: 50%;
         padding: 4rem 0;
     }
 
