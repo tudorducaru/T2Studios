@@ -59,7 +59,7 @@ h1 {
 }
 
 #main-pitch {
-    background-color: #2D3640; 
+    background-color: #F0514B; 
     flex-direction: column;
     align-items: center;
 }
@@ -96,7 +96,7 @@ h1 {
 }
 
 .step-img {
-    width: 12rem;
+    width: 15rem;
     align-self: center;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
@@ -105,6 +105,10 @@ h1 {
 .process-step {
     margin-top: 1rem;
     flex-direction: column;
+}
+
+.process-step p{
+	font-size: 2rem;
 }
 
 .step-arrow {
