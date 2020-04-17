@@ -1,10 +1,26 @@
 #welcome-container {
     margin: 0px;
     background-color: #2D3640;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 4rem 0;
     text-align: center;
     color: white;
+    flex-direction: column;
+}
+
+#welcome-container img {
+    align-self: center;
+    margin-bottom: 2rem;
+    width: 60%;
+}
+
+a, a:visited, a:hover {
+    color: white;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+a:hover {
+    opacity: 0.7;
 }
 
 .custom-ctn {
@@ -13,31 +29,13 @@
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 h1 {
     font-family: 'Dosis', sans-serif;
 }
 
-#welcome-container h1 {
-    color: #f0f0f0;
-    font-size: 4rem;
-}
-
-#welcome-1 {
-    font-size: 2rem;
-    margin: 0px;
-}
-
-#welcome-arrow {
-    height: 3rem;
-    color: red;
-}
-
-#welcome-2 {
-    font-size: 2rem;
-}
 
 #team-container {
     justify-content: space-between;
@@ -71,7 +69,6 @@ h1 {
 
 #main-pitch h1 {
     color: #f0f0f0;
-    font-size: 4rem;
 }
 
 #process {
@@ -107,20 +104,16 @@ h1 {
     flex-direction: column;
 }
 
-.process-step p{
-	font-size: 2rem;
-}
-
 .step-arrow {
     align-self: center;
     height: 5rem;
     width: 5rem;
 }
 
-#tech-container {
-    background-color: #F0514B;
+#pricing-card {
     flex-direction: column;
-    padding: 0;
+    color: white;
+    background-color: #2D3640;
 }
 
 /* Carousel */
@@ -149,6 +142,22 @@ h1 {
     padding: 0 30px;
 }
 /* End of carousel */
+
+#contact {
+    background-color: #F0514B;
+    padding: 3rem 0 0 0;
+    flex-direction: column;
+}
+
+#contact div {
+    padding: 0 15px;
+    color: white;
+}
+
+.contact-p {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
 
 @keyframes slideshow {
     0% {transform: translateX(0);}
