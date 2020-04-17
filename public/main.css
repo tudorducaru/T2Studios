@@ -186,10 +186,35 @@ h1 {
         width: 80%;
     }
 
+    .process-step {
+        flex-direction: row;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .process-step div {
+        align-items: center;
+        width: 15rem;
+    }
+
+    .process-step p {
+        margin-left: 3rem;
+    }
+
+    .step-arrow {
+        align-self: flex-start;
+        width: 3rem;
+        margin-left: 6rem;
+    }
+
 }
 
 /* Laptop */
 @media only screen and (min-width: 1200px) {
+    #welcome-container img {
+        width: 250px;
+    }
+    
     #team-container {
         flex-direction: row;
         padding: 6rem 20%;
@@ -210,6 +235,10 @@ h1 {
     #process {
         width: 50%;
         padding: 4rem 0;
+    }
+
+    .process-step p {
+        margin-left: 6rem;
     }
 }
 
