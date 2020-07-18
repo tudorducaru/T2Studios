@@ -1,177 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="icon" href="favicon.png" type="image/ico"/>
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
-<head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="main.css">
-
-    <!-- Google Fonts font -->
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
-
-    <!-- AOS Library -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
     <title>T2 Studios</title>
 
-</head>
-<body>    
-    <!-- Welcome section -->
-    <div class="d-flex container-fluid" id="welcome-container">
-        <img src="logo.png" class="img-fluid" alt="Responsive Image">
-    
-        <a href="#process">Dezvoltare Aplicații</a>
-        <a href="#contact">Contactează-ne</a>
-    </div>
+  </head>
 
-    <!-- Team section -->
-    <div class="d-flex container-fluid custom-ctn" id="team-container">
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
 
-        <div>
-            <h1>Cine suntem?</h1>
+    <!-- js files -->
+    <script src="assets/js/main.js"></script>
 
-            <p>Echipa noastră este formată din studenți în informatică la universități de top din Marea Britanie. Tineri și nelinistiti, programatorii si designerii noștri sunt nerăbdători să vă ajute să vă dezvoltați ideea.</p>
-        </div>
-        
-        <img src="hacker.png" class="img-fluid">
-    </div>
-
-    <!-- Main pitch -->
-    <div class="d-flex container-fluid custom-ctn" id="main-pitch">
-        
-        <h1>Cum vă putem ajuta</h1>
-
-        <p>Cunoaștem sentimentul, aveți o idee și tot ce vă puteți gândi este cum să o transformați în realitate. Aici intervenim noi. Vă putem ajuta cu orice, de la dezvoltarea ideii si cercetarea pietei pana la lansarea pe Google Play si App Store. Nu vă faceți griji, nu veți fi lăsăți în urmă: oferim transparență la fiecare pas și garantăm un număr nelimitat de revizuiri până când aplicația va ajunge la forma dorită.</p>
-
-    </div>
-
-    <!-- Process -->
-    <div class="d-flex container-fluid custom-ctn" id="process">
-        
-        <h1>Cum functionează</h1>
-        <div id="process-line"></div>
-
-        <div class="d-flex container-fluid process-step" data-aos="fade-down">
-            
-            <div>
-                <h3>1. Idee </h3>
-                <img src="begin.png" class="img-fluid step-img">
-            </div>
-                
-            <p>Ne prezinți conceptul și obiectivele proiectului, dupa care dezvoltam impreună ideea și ne punem pe treabă.</p>
-        </div>
-
-        <img src="nice_arrow.png" class="img-fluid step-arrow" data-aos="fade-left">
-
-        <div class="d-flex container-fluid process-step" data-aos="fade-down">
-            
-            <div>
-                <h3>2. UI/UX Design </h3>
-                <img src="design.png" class="img-fluid step-img">
-            </div>
-                
-            <p>Conceptul se afla in mintea ta, e timpul sa îl punem pe hârtie. Realizam schitele care vor fi planul dupa care vom dezvolta aplicația.</p>
-        </div>
-
-        <img src="nice_arrow.png" class="img-fluid step-arrow" data-aos="fade-left">
-
-        <div class="d-flex container-fluid process-step" data-aos="fade-down">
-            
-            <div>
-                <h3>3. Dezvoltare </h3>
-                <img src="development.png" class="img-fluid step-img">
-            </div>
-                
-            <p>Lasa asta in seama noastră! Programatorii noștri o sa transpună schitele într-un sir lung de 0 si 1 care va reprezenta aplicația ta.</p>
-        </div>
-
-        <img src="nice_arrow.png" class="img-fluid step-arrow" data-aos="fade-left">
-
-        <div class="d-flex container-fluid process-step" data-aos="fade-down">
-            
-            <div>
-                <h3>4. Testare </h3>
-                <img src="testing.png" class="img-fluid step-img">
-            </div>
-                
-            <p>În programare, nu totul merge bine din prima. Folosind atât teste standardizate (rulate de calculator), cât și QA Testeri, ne vom asigura că aplicația se ridică la așteptările tale!</p>
-        </div>
-
-        <img src="nice_arrow.png" class="img-fluid step-arrow" data-aos="fade-left">
-
-        <div class="d-flex container-fluid process-step" data-aos="fade-down">
-            
-            <div>
-                <h3>5. Lansare </h3>
-                <img src="rocket.png" class="img-fluid step-img">
-            </div>
-                
-            <p>Aplicația ta ajunge la utilizatori, pe Google Play și App Store. De aici, îți oferim gratuit 30 de zile de mentenanță și o strategie de dezvoltare pentru următoarele 6 luni.</p>
-        </div>
-
-    </div>
-
-    <!-- Pricing Card -->
-    <div class="d-flex container-fluid custom-ctn" id="pricing-card">
-        <h1>Prețuri</h1>
-        <p>Prețul dezvoltării aplicației este calculat în funcție de numărul estimativ de ore necesare completării proiectului. La T2 Studios, folosim doar tehnologii de ultima generație dezvoltate de giganți precum Google și Facebook. Acestea ne permit dezvoltarea rapidă a proiectelor fără a face rabat la calitate. Contactează-ne pentru a obține o cotație pe loc.</p>
-    
-        <div class="slider-wrapper">
-            <div class="slider">
-                <div class="slide">
-                    <img src="flutter.png">
-                    <img src="firebase.png">
-                    <img src="mondodb.png">
-                    <img src="react.png">
-                    <img src="redux.png">
-                    <img src="algolia.png">
-                </div>
-    
-                <div class="slide">
-                    <img src="flutter.png">
-                    <img src="firebase.png">
-                    <img src="mondodb.png">
-                    <img src="react.png">
-                    <img src="redux.png">
-                    <img src="algolia.png">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Us -->
-    <div class="d-flex container-fluid" id="contact">
-
-        <div>
-            <h1>Contactează-ne</h1>
-            <p>Considerăm că cea mai bună strategie de marketing sunt recomandările. Astfel, lista noastră de clienți mulțumiți se mărește constant. Ne-am dori să fii următorul.</p>
-            <p class="contact-p">☎️ 0726 388 925</p>
-            <p class="contact-p">☎️ 0734 161 148</p>
-            <p class="contact-p">✉️ hello@t2studios.ro</p>
-        </div>
-
-        <img class="img-fluid" src="mobile.png">
-    </div>
-
-    <!-- JS -->
-    <script
-    src="https://code.jquery.com/jquery-3.5.0.js"
-    integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <!-- AOS Script -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({delay: 200, duration: 1500});
-    </script>
-</body>
+  </body>
 </html>
